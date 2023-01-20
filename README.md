@@ -1,6 +1,6 @@
 # `${respon.title}`
 
-[Description](#Description)  |  [Installation](#Installation)
+[Description](#Description)  &nbsp; | &nbsp;  [Installation](#Installation)  &nbsp; | &nbsp;  [Usage](#Usage)  &nbsp; | &nbsp;  [Contributing](#Contributing)  &nbsp; | &nbsp;  [Tests](#Tests)  
 
 #### license
 ![alt](https://img.shields.io/github/license/ian29012/Work-Day-Scheduler?style=for-the-badge)
