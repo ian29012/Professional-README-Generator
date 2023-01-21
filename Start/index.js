@@ -50,42 +50,65 @@ inquirer.prompt([
         message: 'What is your README test instructions?',
         name: 'tests',
     },
+    {
+        type: 'list',
+        choices: ['Apache License', 'MIT License', 'BSD 2-Clause “Simplified” License'],
+        name: 'license',
+    },
   ])
   .then((response) => {
-    const gitlink = `https://github.com/${response.gitName}`
+
+    switch (response.license) {
+        case 'Apache License' :
+        var licensePNG = "https://img.shields.io/badge/License-Apache%202.0-blue.svg";
+        break;
+        case 'MIT License' :
+        var licensePNG = "https://img.shields.io/badge/License-MIT-yellow.svg";
+        break;
+        case 'BSD 2-Clause “Simplified” License' :
+        var licensePNG = "https://img.shields.io/badge/License-BSD%202--Clause-orange.svg";
+        break;
+        }
+
+    const gitlink = `https://github.com/${response.gitName}`;
     const readme = `
 # ${response.title}
 
+## Table of Contents 
+        
 [Description](#Description)  &nbsp; | &nbsp;  [Installation](#Installation)  &nbsp; | &nbsp;  [Usage](#Usage)  &nbsp; | &nbsp;  [Contributing](#Contributing)  &nbsp; | &nbsp;  [Tests](#Tests)  
-
-#### license
-![alt](https://img.shields.io/github/license/${response.gitName}/${response.projectName}?style=for-the-badge)
+        
+![alt](${licensePNG})
 
 ## Description
-
-* ${response.description}
-
+        
+${response.description}
+    
 ## Installation
-
-* ${response.installation}
-
+    
+${response.installation}
+        
 ## Usage
-
-* ${response.usage}
-
+    
+${response.usage}
+        
 ## Contributing
-
-* ${response.contributing}
-
+        
+${response.contributing}
+        
 ## Tests
+        
+${response.tests}
+        
+## license
 
-* ${response.tests}
-
+The ${response.license} covers this application
+        
 ## Questions
-
-Feel free to reach my other project on ${gitlink} 
+        
+Feel free to reach my other project on ${gitlink}  
 Thank you for taking the time to review my project.  
-If you have any problem please do not hesitate to contact me with ${response.email}.`
+If you have any problem please do not hesitate to contact me with ${response.email}.`;
 
 fs.writeFile('./README.md',readme, (err) => 
 err ? console.error(err) : console.log('Commit logged!'))

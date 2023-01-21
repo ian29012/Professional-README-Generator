@@ -1,33 +1,37 @@
-# ${respon.title}
+# ${response.title}
 
+## Table of Contents 
+    
 [Description](#Description)  &nbsp; | &nbsp;  [Installation](#Installation)  &nbsp; | &nbsp;  [Usage](#Usage)  &nbsp; | &nbsp;  [Contributing](#Contributing)  &nbsp; | &nbsp;  [Tests](#Tests)  
-
-#### license
-![alt](https://img.shields.io/github/license/ian29012/Work-Day-Scheduler?style=for-the-badge)
-![alt](https://img.shields.io/github/license/${respon.gitlink}/${respon.projectName}?style=for-the-badge)
-
+    
+![alt](https://img.shields.io/github/license/${response.gitName}/${response.projectName}?style=for-the-badge)
+    
 ## Description
-
-* ${respon.description}
+    
+${response.description}
 
 ## Installation
 
-* ${respon.installation}
-
+${response.installation}
+    
 ## Usage
 
-* ${respon.usage}
-
+${response.usage}
+    
 ## Contributing
-
-* ${respon.contributing}
-
+    
+${response.contributing}
+    
 ## Tests
-
-* ${respon.tests}
-
+    
+${response.tests}
+    
+## license
+    
+${response.license}
+    
 ## Questions
-
-Feel free to reach my other project on ${resopn.gitlink} 
+    
+Feel free to reach my other project on ${gitlink} 
 Thank you for taking the time to review my project.  
-If you have any problem please do not hesitate to contact me with ${resopn.email}.
+If you have any problem please do not hesitate to contact me with ${response.email}.
