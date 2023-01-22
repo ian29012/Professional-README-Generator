@@ -2,7 +2,7 @@
   
 ## Table of Contents 
           
-[Description](#Description)  &nbsp; | &nbsp;  [Installation](#Installation)  &nbsp; | &nbsp;  [Usage](#Usage)  &nbsp; | &nbsp;  [Contributing](#Contributing)  &nbsp; | &nbsp;  [Tests](#Tests)  
+[Description](#Description)  &nbsp; | &nbsp;  [Installation](#Installation)  &nbsp; | &nbsp;  [Usage](#Usage)  &nbsp; | &nbsp;  [Contributing](#Contributing)  
           
 ![alt](https://img.shields.io/github/license/ian29012/Professional-README-Generator?style=for-the-badge)
   
@@ -32,7 +32,7 @@ if you have question please review the [video of usage](https://drive.google.com
           
 ## license
   
-The ${response.license} covers this application
+The MIT License covers this application
           
 ## Questions
     
