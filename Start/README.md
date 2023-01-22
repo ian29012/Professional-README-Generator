@@ -1,5 +1,5 @@
 
-# ian
+# test
   
 ## Table of Contents 
           
@@ -9,23 +9,23 @@
   
 ## Description
           
-ian
+test
       
 ## Installation
       
-ian
+test
           
 ## Usage
       
-ina
+test
           
 ## Contributing
           
-ian
+test
           
 ## Tests
           
-ian
+test
           
 ## license
   
@@ -34,5 +34,5 @@ The MIT License covers this application
 ## Questions
     
 Thank you for taking the time to review my project. 
-Please feel free to reach my other project on https://github.com/ian   
-If you have any problem please do not hesitate to contact me with ian.
+Please feel free to reach my other project on https://github.com/test   
+If you have any problem please do not hesitate to contact me with test.
