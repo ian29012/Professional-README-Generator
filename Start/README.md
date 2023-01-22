@@ -1,38 +1,38 @@
 
-# 1
+# ian
   
 ## Table of Contents 
           
 [Description](#Description)  &nbsp; | &nbsp;  [Installation](#Installation)  &nbsp; | &nbsp;  [Usage](#Usage)  &nbsp; | &nbsp;  [Contributing](#Contributing)  &nbsp; | &nbsp;  [Tests](#Tests)  
           
-![alt](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+![alt](https://img.shields.io/badge/License-MIT-yellow.svg)
   
 ## Description
           
-1
+ian
       
 ## Installation
       
-1
+ian
           
 ## Usage
       
-1
+ina
           
 ## Contributing
           
-1
+ian
           
 ## Tests
           
-1
+ian
           
 ## license
   
-The Apache License covers this application
+The MIT License covers this application
           
 ## Questions
     
 Thank you for taking the time to review my project. 
-Please feel free to reach my other project on https://github.com/1   
-If you have any problem please do not hesitate to contact me with 1.
+Please feel free to reach my other project on https://github.com/ian   
+If you have any problem please do not hesitate to contact me with ian.

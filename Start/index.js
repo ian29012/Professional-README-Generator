@@ -4,7 +4,7 @@ const inquirer = require("inquirer");
 const generateMarkdown = require("../utils/generateMarkdown.js");
 
 // array of questions for user
-inquirer.prompt([
+const questions = [
     {
       type: 'input',
       message: 'What is your GitHub username?',
@@ -53,28 +53,23 @@ inquirer.prompt([
     {
         type: 'list',
         choices: ['Apache License', 'MIT License', 'BSD 2-Clause “Simplified” License'],
+        message: 'Choose a license',
         name: 'license',
-    },
-  ])
-  .then((data) => {
-// // function to write README file
-  fs.writeFile('./README.md', generateMarkdown(data), (err) =>
+    }
+  ]
+
+// function to write README file
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, generateMarkdown(data), (err) =>
   err ? console.error(err) : console.log('Success! ReadMe was generated!'));
-});
+}
 
 // // function to initialize program
  function init() {
-  if(fs.existsSync('./README.md')){
-    inquirer.prompt([
-      {
-        type: 'list',
-        choices: ['Apache License', 'MIT License', 'BSD 2-Clause “Simplified” License'],
-        name: 'license',
-      },
-
-    fs.unlink('./image', (err) =>
-      err ? console.error(err) : console.log('deleted!')
-    )};
+  inquirer.prompt(questions)
+    .then((response) => {
+      writeToFile('./README.md' ,response)
+      });
  }
 
 // // function call to initialize program
